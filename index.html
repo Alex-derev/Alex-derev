@@ -34,7 +34,7 @@
                         </div>
                         <a href="tel:380972071040" class="phone"> +380972071040</a>  
                     </div>
-                    <button class="subheader_btn">Зворотнiй зв'язок</button> 
+                    <button data-modal class="subheader_btn">Зворотнiй зв'язок</button> 
                 </div>     
             </div>
         </div>      
@@ -44,7 +44,7 @@
         <div class="container">
             <div class="promo_main">
                 <div class="promo_text">
-                    <h1 class="promo_header">Отримай <span>180+ балів</span> на ЗНО 2021 <span>не виходячи з дому</span></h1>
+                    <h1 class="promo__header">Отримай <span>180+ балів</span> на ЗНО 2021 <span>не виходячи з дому</span></h1>
                     <div class="promo_list">
                         <ul class="promo_list-first">
                             <li><span>Гарантовано отримай 180+ балів на ЗНО за договором оферти233</span></li>
@@ -58,11 +58,11 @@
                 </div>
                 <div class="form">
                     <div class="form_descr">Залиш свої контактнi даннi</div>
-                    <form id="promo-form" class="promo-form" action="#">
+                    <form id="promo-form" class="feed-form" action="#">
                         <input name="name" placeholder="Ваше iм'я" type="text">
                         <input name="phone" placeholder="Ваш телефон">
 
-                        <button class="button button_submit">Отримати консультацiю</button>
+                        <button data-modal class="button button_submit">Отримати консультацiю</button>
                         <span>*нас обрали 3159 абітурієнтiв за 2019-2020 рiк</span>
                     </form>
             </div>
@@ -72,7 +72,7 @@
 
     <section class="about">
         <div class="container">
-            <h1 class="about__h1">З нами навчаються учнi зi всiєї Україны</h1>
+            <h1>З нами навчаються учнi зi всiєї Україны</h1>
             <h3 class="about__h3">Навайся та виконуй домашнi завдання без помилок за три кроки</h3>
             <div class="about__tabs">
                 <div class="about__tab ">Шаг 1</div>
@@ -117,10 +117,6 @@
  
                             </div>
                             <div class="about__content_descr">
-                                1. Не можуть побороти свою лінь<br>
-                                2. Постійно відволікаються на заважаючі речі<br> 
-                                3. Багато хвилюються за результат ЗНО<br>
-                                4. Майже завжди утомленні
                                 <ul>
                                     <li>Не можуть побороти свою лінь</li>
                                     <li>Постійно відволікаються на заважаючі речі</li>
@@ -134,6 +130,94 @@
         </div>
     </section>
 
+    <section class="subject">
+        <div class="container">
+            <h1>Почни свій шлях до 180+ балів на ЗНО зараз!</h1>
+            <h3>Обирай предмет, залишай заявку та починай навчання</h3>
+            <div class="subject__items">
+                <div class="subject__items_first">
+                    <a data-modal class="item">
+                        <img class="item__img" src="icons/subjects/biolog.png">
+                        <div class="item__descr">Біологія</div>
+                        <div class="item__arrow">
+                            <img class="item__arrow_img" src="img/row/arrow_right.png">
+                        </div>
+                    </a>
+
+                    <a data-modal class="item">
+                        <img class="item__img" src="icons/subjects/english.png">
+                        <div class="item__descr">Англійська мова</div>
+                        <div class="item__arrow">
+                            <img class="item__arrow_img" src="img/row/arrow_right.png">
+                        </div>
+                    </a>
+
+                    <a data-modal class="item">
+                        <img class="item__img" src="icons/subjects/geograph.png">
+                        <div class="item__descr">Географія</div>
+                        <div class="item__arrow">
+                            <img class="item__arrow_img" src="img/row/arrow_right.png">
+                        </div>
+                    </a>
+
+                    <a data-modal class="item">
+                        <img class="item__img" src="icons/subjects/him.png">
+                        <div class="item__descr">Хімія</div>
+                        <div class="item__arrow">
+                            <img class="item__arrow_img" src="img/row/arrow_right.png">
+                        </div>
+                    </a>
+                </div>
+                <div class="subject__items_second">
+                    <a data-modal class="item">
+                        <img class="item__img" src="icons/subjects/histor.png">
+                        <div class="item__descr">Історія України</div>
+                        <div class="item__arrow">
+                            <img class="item__arrow_img" src="img/row/arrow_right.png">
+                        </div>
+                    </a>
+
+                    <a data-modal class="item">
+                        <img class="item__img" src="icons/subjects/math.png">
+                        <div class="item__descr">Математика</div>
+                        <div class="item__arrow">
+                            <img class="item__arrow_img" src="img/row/arrow_right.png">
+                        </div>
+                    </a>
+
+                    <a data-modal class="item">
+                        <img class="item__img" src="icons/subjects/physics.png">
+                        <div class="item__descr">Фізика</div>
+                        <div class="item__arrow">
+                            <img class="item__arrow_img" src="img/row/arrow_right.png">
+                        </div>
+                    </a>
+                    
+                    <a data-modal class="item">
+                        <img class="item__img" src="icons/subjects/ukr.png">
+                        <div class="item__descr">Українська мова та література</div>
+                        <div class="item__arrow">
+                            <img class="item__arrow_img" src="img/row/arrow_right.png">
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <div class="overlay hide">
+        <div class="modal">
+            <div data-close class="modal__close">&times;</div>
+            <div class="modal__subtitle">Залиш контактні данні та отримай знижку -30%</div>
+            <form id="promo-form" class="feed-form" action="#">
+                <input name="name" placeholder="Ваше iм'я" type="text">
+                <input name="phone" placeholder="Ваш телефон">
+
+                <button class="button button_submit">Отримати консультацiю</button>
+            </form>
+        </div>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
